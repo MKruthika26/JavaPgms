@@ -10,7 +10,7 @@ public class LCM {
 		for(int i=max; i<=(n1*n2); i++) {
 			if(i%n1==0 && i%n2==0) {
 				System.out.println(i);
-			
+				break;
 			}
 		}
 		
