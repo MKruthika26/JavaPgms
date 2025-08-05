@@ -3,6 +3,7 @@ package com.basic;
 import java.util.Arrays;
 
 public class MergeSort {
+	   
 	public static int [] merge(int [] arr1,int []arr2,int arr[]) {
 		int i=0; int j=0; int k=0;
 		int res[]=new int[arr1.length+arr2.length];
@@ -29,6 +30,7 @@ public class MergeSort {
 		}
 		return res;
 	}
+	
 	public static int [] divide(int []arr) {
 		if(arr.length==1) {
 			return arr;
@@ -50,7 +52,7 @@ public class MergeSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int []arr= {24,43,235,26,87,23,9,21};
+		int []arr= {24,43,38,26,87,23,72,12};
 		int []res=divide(arr);
 		System.out.println(Arrays.toString(res));
 
